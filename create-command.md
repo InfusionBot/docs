@@ -1,3 +1,7 @@
+---
+layout: docs
+---
+
 # Creating a Command
 
 Creating a command is very easy. We use js objects to define description, function to execute the command, etc.
