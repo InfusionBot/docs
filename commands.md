@@ -53,16 +53,19 @@ NOTE: `reason` argument will be set to "Not specified" if you don't specify any 
 ### `ban`
 
 Ban a user
+
 - Usage: `[@user] (reason)`
 
 ### `unban`
 
 Unban a user
+
 - Usage: `[user_id]`
 
 ### `kick`
 
 Kick a user
+
 - Usage: `[@user] (reason)`
 
 ## General
@@ -70,6 +73,7 @@ Kick a user
 ### `help`
 
 Get help
+
 - Usage: `(command_name)`
 - Alias: `commands`
 
@@ -90,12 +94,20 @@ Server statistics.
 ### `user`
 
 Information on a user.
+
 - Usage: `[@mention || user_id]`
 - Aliases: `whois`
 
 ### `info`
 
 Information about the bot.
+
+### `version`
+
+The changelog of bot on a specific version. The info on latest version will be used if you don't specify a version.
+
+- Usage: `(version)`
+- Aliases: `ver`
 
 - - -
 
