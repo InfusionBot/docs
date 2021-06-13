@@ -15,9 +15,12 @@ If You're not sure what prefix is used can you just `@-mention` the bot (`@welco
 Manage channel to send welcome messages and good bye messages
 
 **Subcommands:**
-- `set [channel_name]` - Set channel, channel to send message
-- `get` - Get currently set channel
-- `reset` - Reset channel back to default value
+- `set [channel_name]` - Set channel, channel to send welcome message
+- `setMod [channel_name]` - Set moderation logging channel
+- `get` - Get currently set welcome channel
+- `getMod` - Get currently set moderation logging channel
+- `reset` - Reset welcome channel back to default value
+- `resetMod` - Reset moderation channel back to default value
 
 - Usage: `(subcommand)`
 - Aliases: `chan`
@@ -118,9 +121,9 @@ The brakets in these commands mean:
 || = This OR That
 ```
 
-All these commands should be prefixed with prefix i.e. for command `ping` you have to send `w/ping` in the channel the bot has perms to read and send messages.
+All these commands should be prefixed with the prefix i.e. for command `ping` you have to send `w/ping` in the channel the bot has perms to read and send messages.
 
-In some of these you will see under a command their is a command, to execute those, send `command subcommand args` where `command` is the command, `subcommand` is the subcommand and `args` is/are the argument(s)
+In some of these you will see under a command their is a subcommand, to execute those, send `command subcommand args` where `command` is the command, `subcommand` is the subcommand and `args` is/are the argument(s)
 
 Example usage of subcommand: `w/message set Welcome {mention}!`
 
