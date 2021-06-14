@@ -8,7 +8,15 @@ layout: docs
 
 If You're not sure what prefix is used can you just `@-mention` the bot (`@welcome-bot#0914`) and it will tell you what prefix is used.
 
-## Setup Commands
+# Table of contents
+
+- [Setup](#setup)
+- [General](#general)
+- [Information](#information)
+- [Moderation](#moderation)
+- [Miscellaneous](#miscellaneous)
+
+## Setup
 
 ### `channel`
 
@@ -49,7 +57,44 @@ Manage prefix for this server
 - Usage: `(subcommand)`
 - Aliases: `msg`
 
-## Moderation commands
+## General
+
+### `help`
+
+Get help
+
+- Usage: `(command_name)`
+- Alias: `commands`
+
+### `ping`
+
+Ping the bot.
+
+## Information
+
+### `info`
+
+Information about the bot.
+
+### `stats`
+
+Server statistics.
+
+### `user`
+
+Information on a user.
+
+- Usage: `[@mention || user_id]`
+- Aliases: `whois`
+
+### `version`
+
+The changelog of bot on a specific version. The info on latest version will be used if you don't specify a version.
+
+- Usage: `(version)`
+- Aliases: `ver`
+
+## Moderation
 
 NOTE: `reason` argument will be set to "Not specified" if you don't specify any reason
 
@@ -71,46 +116,11 @@ Kick a user
 
 - Usage: `[@user] (reason)`
 
-## General
-
-### `help`
-
-Get help
-
-- Usage: `(command_name)`
-- Alias: `commands`
-
-### `ping`
-
-Ping the bot.
-
 ## Miscellaneous
 
 ### `test`
 
 Test by sending welcome message
-
-### `stats`
-
-Server statistics.
-
-### `user`
-
-Information on a user.
-
-- Usage: `[@mention || user_id]`
-- Aliases: `whois`
-
-### `info`
-
-Information about the bot.
-
-### `version`
-
-The changelog of bot on a specific version. The info on latest version will be used if you don't specify a version.
-
-- Usage: `(version)`
-- Aliases: `ver`
 
 - - -
 
