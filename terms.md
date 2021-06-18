@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Terms of Service - Discord Welcome bot
+# Terms of Service - Discord Welcome-Bot
 
 This page covers the Terms of Service (Terms) of the Discord welcome bot.
 

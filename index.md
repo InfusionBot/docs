@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Docs - Discord Welcome bot
+# Docs - Discord Welcome-Bot
 
 ## Pages
 

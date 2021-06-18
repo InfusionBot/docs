@@ -2,11 +2,13 @@
 layout: docs
 ---
 
-# Commands - Discord Welcome bot
+# Commands - Discord Welcome-Bot
 
 > Default Prefix: `w/`
 
-If You're not sure what prefix is used can you just `@-mention` the bot (`@welcome-bot#0914`) and it will tell you what prefix is used.
+If You're not sure what prefix is used you can just `@-mention` the bot (`@welcome-bot#0914`) and it will tell you what prefix is used. If you though set a custom prefix for your server the default prefix can always be used.
+
+- - -
 
 # Table of contents
 
@@ -124,11 +126,11 @@ Test by sending welcome message
 
 - - -
 
-The brakets in these commands mean:
+The brakets in these usages mean:
 ```
 [] = Required argument
 () = Optional argument
-|| = This OR That
+/ = Any One of these
 ```
 
 All these commands should be prefixed with the prefix i.e. for command `ping` you have to send `w/ping` in the channel the bot has perms to read and send messages.

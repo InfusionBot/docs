@@ -10,14 +10,17 @@ You need to create a js object with keys and values.
 
 Take a look at [sample.js](https://github.com/Welcome-Bot/welcome-bot/blob/main/src/commands/sample/sample.js) before starting.
 
-To create a command, run `npm run --cat=category --command=commandName`
+To create a command, run `npm run mkcmd --cat=category --command=commandName`
 
 Available categories are:
-- admin
-- bot
+- setup
+- general
 - info
+- manage
 - mod
+- fun
 - owner
+- core
 
 To create a category, create a folder under the commands directory
 
@@ -105,6 +108,13 @@ What subcommands does this command have
 
 - Type: array
 - Required: false
+
+## subs_desc
+
+Description of the above subcommands.
+
+- Type: array
+- Required: true if subcommands is specified
 
 ## cooldown
 

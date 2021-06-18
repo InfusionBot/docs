@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Self-hosting - Discord welcome bot
+# Self-hosting - Discord Welcome-Bot
 
 [license]: https://github.com/Welcome-bot/welcome-bot/blob/main/LICENSE
 [releases]: https://github.com/Welcome-bot/welcome-bot/releases
