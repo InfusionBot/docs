@@ -8,8 +8,6 @@ Creating a command is very easy. We use js objects to define description, functi
 
 You need to create a js object with keys and values.
 
-Take a look at [sample.js](https://github.com/Welcome-Bot/welcome-bot/blob/main/src/commands/sample/sample.js) before starting.
-
 To create a command, run `npm run mkcmd --cat=category --command=commandName`
 
 Available categories are:
@@ -129,6 +127,13 @@ Can only the owner(s) of this bot execute this command
 
 - Type: boolen
 - Required: false
+
+## category
+
+The category of that command
+
+- Type: string
+- Required: true
 
 ## execute(message, args)
 
