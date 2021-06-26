@@ -41,3 +41,6 @@ If you followed the previous step on preparing the bot will you only need to set
 | `NODE_ENV`             | You have to set this to `development` when self-hosting or their will be problems |
 | `BOT_TOKEN`            | Valid Bot-token of your Bot-application to login.                                 |
 | `MONGODB_URL`          | Valid URL provided by MongoDB when creating DB.                                   |
+
+### Tried of all these?
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FWelcome-Bot%2Fwelcome-bot%2F&plugins=mongodb&envs=DISCORD_TOKEN%2CNODE_ENV&DISCORD_TOKENDesc=Your+discord+bot+token&NODE_ENVDesc=Please+don%27t+change+this%21&NODE_ENVDefault=development)
