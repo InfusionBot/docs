@@ -38,3 +38,23 @@ Available placeholders:
 - `{server}` - The server's name
 - `{mention}` - @-mention the user who has joined.
 - `{members}` - The number of the member, took from members count in the server, i.e "If their were 8 members and a new member joins, he is our 9th member!"
+
+- - -
+
+## Images
+
+### Welcome users
+
+![Welcome users image]({{ '/assets/img/welcome.png' }})
+
+### Paginated help
+
+![Paginated help image]({{ '/assets/img/help.png' }})
+
+### Get changelog on latest version!
+
+![Changelog image]({{ '/assets/img/changelog.png' }})
+
+### Random waifu image
+
+![Waifu image]({{ '/assets/img/waifu.png' }})
