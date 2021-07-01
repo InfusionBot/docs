@@ -8,7 +8,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
+        gtag('config', '{{ site.google_analytics }}', {'page_title': {{ page.title | default: site.title | default: site.github.repository_name }}});
       </script>
     {% endif %}
     <meta charset="UTF-8">
@@ -43,10 +43,7 @@
       {{ content }}
 
       <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <a href="{{ '/' | relative_url }}">Back to docs index page</a>
+        <a href="{{ '/' | relative_url }}">Back to docs main page</a>
         <p>P.S. we use Google Analytics. <a href="https://policies.google.com/technologies/partner-sites">Analytics privacy info</a></p>
       </footer>
     </main>
