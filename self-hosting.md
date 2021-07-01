@@ -13,7 +13,7 @@ This page explains how you can self-host the bot for yourself.
 *Important!*
 **By selfhosting the bot will you agree to the following terms:**
 - You follow the [LGPL-v2.1-License][license] of the bot.
-    - This means that you give credit to the original author (Welcome-bot team) and won't claim this code as your own.
+    - This means that you give credit to the original author (Welcome-bot team & contributors) and won't claim this code as your own.
 - You aknowledge and agree that you won't receive any support for your self-hosted bot.
 
 ## Requirements
@@ -21,7 +21,6 @@ Before you can run the bot will you need to make sure that the following require
 
 ### MongoDB
 You need to have [MongoDB](//mongodb.com) installed and running on your server, where the bot will later run.
-This also includes creating databases and tables to later set in the `.env`.
 
 ### Node
 You need **at least** Node 12 to be installed and working. Newer versions of Node should work too.
@@ -38,9 +37,7 @@ If you followed the previous step on preparing the bot will you only need to set
 
 | Option:                | Value required:                                                                   |
 | ---------------------- | --------------------------------------------------------------------------------- |
-| `NODE_ENV`             | You have to set this to `development` when self-hosting or their will be problems |
+| `NODE_ENV`             | Better to set this to `development` when self-hosting or their will be problems  |
 | `BOT_TOKEN`            | Valid Bot-token of your Bot-application to login.                                 |
 | `MONGODB_URL`          | Valid URL provided by MongoDB when creating DB.                                   |
-
-### Tried of all these?
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FWelcome-Bot%2Fwelcome-bot%2F&plugins=mongodb&envs=DISCORD_TOKEN%2CNODE_ENV&DISCORD_TOKENDesc=Your+discord+bot+token&NODE_ENVDesc=Please+don%27t+change+this%21&NODE_ENVDefault=development)
+| `BOT_PREFIX`           | Default prefix of the bot                                                         |
