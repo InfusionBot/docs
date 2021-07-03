@@ -14,13 +14,6 @@ If You're not sure what prefix is used you can just `@-mention` the bot (`@welco
 
 - - -
 
-The brakets in these usages mean:
-```
-[] = Required argument
-() = Optional argument
-/ = Any One of these
-```
-
 All these commands should be prefixed with the prefix i.e. for command `ping` you have to send `w/ping` in the channel the bot has perms to read and send messages.
 
 In some of these you will see under a command their is a subcommand, to execute those, send `command subcommand args` where `command` is the command, `subcommand` is the subcommand and `args` is/are the argument(s)
