@@ -14,7 +14,7 @@ Available categories are:
 - setup
 - general
 - info
-- manage
+- music
 - mod
 - fun
 - owner
@@ -104,15 +104,8 @@ Is at least 1 subcommand required
 
 What subcommands does this command have
 
-- Type: array
+- Type: Array<Object>
 - Required: false
-
-## subs_desc
-
-Description of the above subcommands.
-
-- Type: array
-- Required: true if subcommands is specified
 
 ## cooldown
 
