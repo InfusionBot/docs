@@ -4,7 +4,7 @@ layout: docs
 
 # Privacy Policy - Discord Welcome-Bot
 
-Last updated and effective: 1 July, 2021
+Last updated and effective: 9 July, 2021
 
 By using Welcome-Bot, you agree to the following privacy policy.
 
@@ -24,7 +24,7 @@ The bot may store the following information automatically when being invited to 
 - `channel` with value `new-members`
 - `welcomeMessage` with value `Welcome {mention} to the {server} server!\nYou are our #{members} member`
 - `goodByeMessage` with value `Good Bye {mention}!\nWe are sad to see you go!`
-- `modLogChan` with value `mod-log`
+- `modChannel` with value `mod-log`
 - `enableWelcome` with value `true`
 - `enableGoodbye` with value `true`
 - `lang` with value `Server's preferred locale` given by discord, if that's missing then `en-US`
