@@ -6,7 +6,8 @@ layout: docs
 
 > Default Prefix: `w/`
 
-If You're not sure what prefix is used you can just `@-mention` the bot (`@welcome-bot#0914`) and it will tell you what prefix is used. If you though set a custom prefix for your server the default prefix can always be used.
+If You're not sure what prefix is used you can just `@-mention` the bot (`@Welcome-Bot#0914`) and it will tell you what prefix is used.
+You can set a custom prefix for your server, but the default prefix can always be used.
 
 - - -
 
