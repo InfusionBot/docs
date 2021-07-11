@@ -44,7 +44,7 @@ If you followed the previous step on preparing the bot will you only need to set
 
 | Option:                | Value required:                                                                   |
 | ---------------------- | --------------------------------------------------------------------------------- |
-| `NODE_ENV`             | Better to set this to `development` when self-hosting or their will be problems  |
+| `NODE_ENV`             | Better to set this to `production` when self-hosting                              |
 | `BOT_TOKEN`            | Valid Bot-token of your Bot-application to login.                                 |
 | `MONGODB_URL`          | Valid URL provided by MongoDB when creating DB.                                   |
 | `BOT_PREFIX`           | Default prefix of the bot                                                         |
