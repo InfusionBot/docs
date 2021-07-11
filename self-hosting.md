@@ -4,8 +4,15 @@ layout: docs
 
 # Self-hosting - Discord Welcome-Bot
 
-[license]: https://github.com/Welcome-bot/welcome-bot/blob/main/LICENSE
-[releases]: https://github.com/Welcome-bot/welcome-bot/releases
+**We ask you to please not host your own instance of Welcome-Bot.**
+Even though our license allows it, self-hosted instances of the bot have brought us a lot of headache in the past.
+If you're considering self-hosting, please [try the official instance of the bot first](https://dsc.gg/welcome-bot).
+If you have any concerns about the security of our instance, please contact us.
+We'd love to talk and answer any questions you have.
+
+> If you're really really really going to self-host the bot, please [read our license][license] first, and be aware that we don't provide any self-hosting support which is up to date. You'll be on your own.
+> The self-hosting docs below are archived, you may host older versions of Welcome-Bot, I am sure v1.5 and older will work, but not after that version.
+> By self-hosting, you are losing a lot of features, we recommend to not self host your own instance of Welcome-Bot.
 
 Some of you may want to self-host the bot on your own VPS/server.
 This page explains how you can self-host the bot for yourself.
@@ -41,3 +48,6 @@ If you followed the previous step on preparing the bot will you only need to set
 | `BOT_TOKEN`            | Valid Bot-token of your Bot-application to login.                                 |
 | `MONGODB_URL`          | Valid URL provided by MongoDB when creating DB.                                   |
 | `BOT_PREFIX`           | Default prefix of the bot                                                         |
+
+[license]: https://github.com/Welcome-bot/welcome-bot/blob/main/LICENSE
+[releases]: https://github.com/Welcome-bot/welcome-bot/releases
