@@ -442,7 +442,7 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Fetches a random waifu (lewd if the channel is NSFW) and displays it.
+- Description: Fetches a random waifu and displays it.
 - Usage: None
 - Aliases: None
 - Cooldown: 10
