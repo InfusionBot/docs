@@ -1,4 +1,4 @@
-Welcome-Bot contains more than **40 commands** in **10 categories**!
+Welcome-Bot contains more than **50 commands** in **8 categories**!
 
 ### **Usage Key!**
 
@@ -18,12 +18,10 @@ Welcome-Bot contains more than **40 commands** in **10 categories**!
 
 - [Setup](#setup)
 - [General](#general)
-- [Information](#information)
 - [Moderation](#moderation)
-- [Miscellaneous](#miscellaneous)
 - [Fun](#fun)
+- [Music](#music)
 - [Anime](#anime)
-- [Games](#games)
 - [Owner Only](#owner-only)
 - [Core](#core)
 
@@ -44,7 +42,7 @@ Welcome-Bot contains more than **40 commands** in **10 categories**!
 
 - Description: Manage channel settings for this server
 Not providing any arguments will display the current settings.
-- Usage: None
+- Usage: (subcommand)
 - Aliases: `chan`
 - Cooldown: 10
 
@@ -103,7 +101,7 @@ Not providing any arguments will display the current settings.
 - Description: Change language
 - Usage: (subcommand) (lang)
 - Aliases: `language`, `changelang`, `getlang`
-- Cooldown: 5
+- Cooldown: 10
 
 ### `message`
 
@@ -115,7 +113,7 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Manage welcome message for this server
-- Usage: None
+- Usage: (subcommand)
 - Aliases: `msg`
 - Cooldown: 10
 
@@ -129,26 +127,13 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Manage prefix for this server
-- Usage: None
+- Usage: (subcommand)
 - Aliases: `getprefix`
 - Cooldown: 10
 
-## General (4 commands)
+## General (11 commands)
 
-### `invite`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Get Invite link for the bot
-- Usage: None
-- Aliases: None
-- Cooldown: 20
-
-### `ping`
+### `addemoji`
 
 ##### Subcommands:
 
@@ -156,38 +141,10 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Ping the bot
-- Usage: None
-- Aliases: `latency`
-- Cooldown: 5
-
-### `help`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: List all commands or get info for a specific command/category.
-- Usage: (command name / category)
-- Aliases: `commands`, `cmd`
-- Cooldown: 5
-
-### `perms`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Get permissions given to a specific user. Not providing any user mention will show your permissions
-- Usage: (@mention / user_id)
-- Aliases: `permissions`
-- Cooldown: 5
-
-## Information (5 commands)
+- Description: Add emoji from a image link
+- Usage: [link] [emoji name]
+- Aliases: `emoji`
+- Cooldown: 10
 
 ### `avatar`
 
@@ -198,24 +155,11 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Get a user's avatar
-- Usage: (mention / user id)
+- Usage: (@mention / user id)
 - Aliases: `dp`, `profile`
-- Cooldown: 5
-
-### `botinfo`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Bot information
-- Usage: (--dm)
-- Aliases: `botstats`, `info`
 - Cooldown: 10
 
-### `stats`
+### `hastebin`
 
 ##### Subcommands:
 
@@ -223,12 +167,12 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Your server statistics
-- Usage: (--dm)
-- Aliases: `server`
+- Description: Upload your text on hastebin!
+- Usage: [text]
+- Aliases: `pastebin`
 - Cooldown: 10
 
-### `user`
+### `help`
 
 ##### Subcommands:
 
@@ -236,27 +180,12 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Get information about a user. It will show your info if no user was mentioned
-- Usage: (@mention / user_id)
-- Aliases: `whois`
-- Cooldown: 3
-
-### `version`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Get information on a version or latest version
-- Usage: (version)
-- Aliases: `ver`
+- Description: List all commands or get info for a specific command/category.
+- Usage: (command name / category / --list-categories)
+- Aliases: `commands`, `cmds`, `ajuda`
 - Cooldown: 10
 
-## Moderation (4 commands)
-
-### `ban`
+### `listemojis`
 
 ##### Subcommands:
 
@@ -264,40 +193,12 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Ban a user.
-- Usage: [@user] (reason)
-- Aliases: None
-- Cooldown: 5
+- Description: List of all custom emojis in this server, with there IDs.
+- Usage: None
+- Aliases: `list-emojis`
+- Cooldown: 10
 
-### `kick`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Kick a user.
-- Usage: [@mention] (reason)
-- Aliases: None
-- Cooldown: 5
-
-### `prune`
-
-##### Subcommands:
-
-- `all` - Delete 100 messages
-- `bots` - Delete all messages sent by a bot in this channel
-- `*[string]` - `*Text` will delete any message containing "Text"
-
-##### Cmd info
-
-- Description: Prune Messages.
-- Usage: [no of msg to prune / subcommand]
-- Aliases: `purge`
-- Cooldown: 5
-
-### `unban`
+### `perms`
 
 ##### Subcommands:
 
@@ -305,12 +206,10 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Unban a user.
-- Usage: [user_id]
-- Aliases: None
-- Cooldown: 5
-
-## Miscellaneous (2 commands)
+- Description: Get permissions given to a specific user. Not providing any user mention will show your permissions
+- Usage: (@mention / user id)
+- Aliases: `permissions`
+- Cooldown: 10
 
 ### `qrcode`
 
@@ -326,6 +225,19 @@ Not providing any arguments will display the current settings.
 - Aliases: `qr`
 - Cooldown: 10
 
+### `serverinfo`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Your server statistics
+- Usage: (--dm)
+- Aliases: `si`
+- Cooldown: 10
+
 ### `test`
 
 ##### Subcommands:
@@ -337,9 +249,143 @@ Not providing any arguments will display the current settings.
 - Description: Test by sending welcome message
 - Usage: None
 - Aliases: None
-- Cooldown: 3
+- Cooldown: 10
 
-## Fun (3 commands)
+### `user`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Get information about a user. It will show your info if no user was mentioned
+- Usage: (@mention / user id) (--dm)
+- Aliases: `whois`, `ui`, `uinfo`
+- Cooldown: 10
+
+### `version`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Get information on a version or latest version
+- Usage: (version)
+- Aliases: `vinfo`, `ver`
+- Cooldown: 10
+
+## Moderation (6 commands)
+
+### `ban`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Ban a user.
+- Usage: [@mention] (reason)
+- Aliases: None
+- Cooldown: 10
+
+### `kick`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Kick a user.
+- Usage: [@mention] (reason)
+- Aliases: None
+- Cooldown: 10
+
+### `mute`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Mute a member
+- Usage: [@mention / user id] (reason)
+- Aliases: None
+- Cooldown: 10
+
+### `prune`
+
+##### Subcommands:
+
+- `all` - Delete 100 messages
+- `bots` - Delete all messages sent by a bot in this channel
+- `*[string]` - `*Text` will delete any message containing "Text"
+
+##### Cmd info
+
+- Description: Prune Messages.
+- Usage: [no of msg / subcommand]
+- Aliases: `purge`
+- Cooldown: 10
+
+### `unban`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Unban a user.
+- Usage: [user id]
+- Aliases: None
+- Cooldown: 10
+
+### `unmute`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Unmute a member
+- Usage: [@mention / user id] (reason)
+- Aliases: None
+- Cooldown: 10
+
+## Fun (5 commands)
+
+### `8ball`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Get your fortune by asking your question
+- Usage: [question]
+- Aliases: `eight-ball`, `8b`, `8-ball`, `eightball`
+- Cooldown: 10
+
+### `coinflip`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Flip a coin.
+- Usage: None
+- Aliases: `cf`, `filpcoin`
+- Cooldown: 10
 
 ### `figlet`
 
@@ -364,7 +410,7 @@ Not providing any arguments will display the current settings.
 
 - Description: Generate a random pokemon image
 - Usage: None
-- Aliases: `random-image`
+- Aliases: `random-image`, `randomimage`
 - Cooldown: 10
 
 ### `pokemon`
@@ -380,6 +426,103 @@ Not providing any arguments will display the current settings.
 - Aliases: `pokémon`
 - Cooldown: 10
 
+## Music (7 commands)
+
+### `back`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Play prevoius music
+- Usage: None
+- Aliases: `prevoius`
+- Cooldown: 10
+
+### `loop`
+
+##### Subcommands:
+
+- `off` - Turn off loop mode and don't autoplay also
+- `track` - Enable loop of current track
+- `queue` - Enable loop of current queue
+- `autoplay` - Just keep playing next songs in queue and end when queue finishes
+
+##### Cmd info
+
+- Description: Manage loop settings for music
+- Usage: [subcommand]
+- Aliases: `setloop`
+- Cooldown: 10
+
+### `np`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: The details of song which is being played now
+- Usage: None
+- Aliases: `now-playing`, `nowplaying`
+- Cooldown: 10
+
+### `play`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Play music on channel.
+You must join a voice channel before using this command.
+- Usage: [name]
+- Aliases: `joue`
+- Cooldown: 10
+
+### `skip`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Skip the current song
+- Usage: None
+- Aliases: `nextmusic`
+- Cooldown: 10
+
+### `stop`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Stop the music
+- Usage: None
+- Aliases: `leave`
+- Cooldown: 10
+
+### `volume`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Adjust the volume of the music
+- Usage: (0-200)
+- Aliases: `sound-level`, `soundlevel`
+- Cooldown: 10
+
 ## Anime (5 commands)
 
 ### `cuddle`
@@ -391,9 +534,9 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Cuddle with a user
-- Usage: [mention / user id]
+- Usage: [@mention / user id]
 - Aliases: None
-- Cooldown: 3
+- Cooldown: 5
 
 ### `hug`
 
@@ -404,9 +547,9 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Give a hug to a user
-- Usage: [mention / user id]
+- Usage: [@mention / user id]
 - Aliases: None
-- Cooldown: 3
+- Cooldown: 5
 
 ### `kiss`
 
@@ -417,11 +560,11 @@ Not providing any arguments will display the current settings.
 ##### Cmd info
 
 - Description: Kiss a user
-- Usage: [mention / user id]
+- Usage: [@mention / user id]
 - Aliases: None
-- Cooldown: 3
+- Cooldown: 5
 
-### `slap`
+### `pat`
 
 ##### Subcommands:
 
@@ -429,10 +572,10 @@ Not providing any arguments will display the current settings.
 
 ##### Cmd info
 
-- Description: Slap a user
-- Usage: [mention / user id]
+- Description: Pats someone
+- Usage: [@mention / user id]
 - Aliases: None
-- Cooldown: 3
+- Cooldown: 5
 
 ### `waifu`
 
@@ -445,35 +588,7 @@ Not providing any arguments will display the current settings.
 - Description: Fetches a random waifu and displays it.
 - Usage: None
 - Aliases: None
-- Cooldown: 10
-
-## Games (2 commands)
-
-### `8ball`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Get your fortune by asking your question
-- Usage: [question]
-- Aliases: `eightball`
-- Cooldown: 3
-
-### `coinflip`
-
-##### Subcommands:
-
-- None
-
-##### Cmd info
-
-- Description: Flip a coin.
-- Usage: None
-- Aliases: `cf`
-- Cooldown: 10
+- Cooldown: 5
 
 ## Owner Only (4 commands)
 
@@ -527,9 +642,22 @@ Not providing any arguments will display the current settings.
 - Description: Show the list of servers the bot is in.
 - Usage: None
 - Aliases: `slist`, `serverslist`
-- Cooldown: 10
+- Cooldown: 20
 
-## Core (5 commands)
+## Core (9 commands)
+
+### `botinfo`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Bot information
+- Usage: (--dm)
+- Aliases: `bi`, `binfo`, `info`, `stats`
+- Cooldown: 5
 
 ### `botperms`
 
@@ -544,6 +672,19 @@ Not providing any arguments will display the current settings.
 - Aliases: None
 - Cooldown: 10
 
+### `invite`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Get Invite link for the bot
+- Usage: None
+- Aliases: `invite-bot`, `invitebot`
+- Cooldown: 20
+
 ### `lib`
 
 ##### Subcommands:
@@ -557,6 +698,32 @@ Not providing any arguments will display the current settings.
 - Aliases: `library`
 - Cooldown: 10
 
+### `ping`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Ping the bot
+- Usage: None
+- Aliases: `latency`, `pong`
+- Cooldown: 5
+
+### `suggest`
+
+##### Subcommands:
+
+- None
+
+##### Cmd info
+
+- Description: Give your suggestion
+- Usage: [suggestion]
+- Aliases: `suggestion`
+- Cooldown: 10
+
 ### `support`
 
 ##### Subcommands:
@@ -567,8 +734,8 @@ Not providing any arguments will display the current settings.
 
 - Description: Get Support for Welcome-Bot
 - Usage: None
-- Aliases: `getsupport`
-- Cooldown: 10
+- Aliases: `support-server`, `supportserver`
+- Cooldown: 20
 
 ### `uptime`
 
@@ -580,7 +747,7 @@ Not providing any arguments will display the current settings.
 
 - Description: Get uptime of the bot
 - Usage: None
-- Aliases: `getuptime`
+- Aliases: `bot-uptime`, `botuptime`
 - Cooldown: 10
 
 ### `website`
