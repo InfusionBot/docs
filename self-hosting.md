@@ -11,6 +11,7 @@ If you have any concerns about the security of our instance, please contact us.
 We'd love to talk and answer any questions you have.
 
 > If you're really really really going to self-host the bot, please [read our license][license] first, and be aware that we don't provide any self-hosting support which is up to date. You'll be on your own.
+
 > The self-hosting docs below are archived, you may host older versions of Welcome-Bot, I am sure v1.5 and older will work, but not after that version.
 > By self-hosting, you are losing a lot of features, we recommend to not self host your own instance of Welcome-Bot.
 
