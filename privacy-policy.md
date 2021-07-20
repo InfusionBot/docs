@@ -4,7 +4,7 @@ layout: docs
 
 # Privacy Policy - Discord Welcome-Bot
 
-Last updated and effective: 9 July, 2021
+Last updated and effective: 20 July, 2021
 
 By using Welcome-Bot, you agree to the following privacy policy.
 
@@ -49,7 +49,7 @@ Data may be dropped from cache pre-maturely through actions such as removing the
 
 Stored Data may be removed by either removing the bot from a Server, through the means of kicking or banning it, or by requesting the removal of the data through E-Mail.
 We reserve the right to ask for verification of Ownership of the Server, if removal was requested through E-Mail to prevent any possible abuse. This means that only the Server owner may ask for the removal of data from their Server through E-Mail.
-E-Mail requests should go towards abhijoshi2k@gmail.com.
+E-Mail requests should go towards abhijoshi2k@gmail.com or baalkrshna@gmail.com.
 
 ### Limitations
 
