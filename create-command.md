@@ -13,7 +13,6 @@ To create a command, run `npm run mkcmd --cat=category --command=commandName`
 Available categories are:
 - setup
 - general
-- info
 - music
 - mod
 - fun
@@ -22,82 +21,68 @@ Available categories are:
 
 To create a category, create a folder under the commands directory
 
-The keys in the js object are described below:
+The opts you provide when using the `super()` built-in function in the js class which extends Command are described below:
 
 ## name
 
 Command name
 
-- Type: string
+- Type: String
 - Required: true
 
 ## aliases
 
 Aliases for that command
 
-- Type: array
+- Type: Array<String>
 - Required: false
 
-## description
-
-Description of that command
-
-- Required: false
-
-## permissions
+## memberPerms
 
 Permissions required by a member/user to execute this command
 
-- Type: array
+- Type: Array
 - Required: false
 
-## bot_perms
+## botPerms
 
 Permissions required by bot to execute this command
 
-- Type: array
+- Type: Array
 - Required: false
 
-## args
+## requirements
 
-Is at least 1 argument required
+Requirements of the cmd.
 
-- Type: boolen
-- Required: false
+- requirements.args: Are arguments required?
+    - Type: Boolen
+    - Required: false
+- requirements.guildOnly: Does this cmd not work in DMs?
+    - Type: Boolen
+    - Required: false
+- requirements.subcommand: Is at least 1 subcommand required
+    - Type: Boolen
+    - Required: false
+- requirements.ownerOnly: Can only the owner(s) of this bot execute this command
+    - Type: Boolen
+    - Required: false
 
-## guildOnly
-
-Should we only execute this command in guilds and not DMs
-
-- Type: boolen
-- Required: false
-
-## catchError
-
-Do you want to catch error, log it and reply that there was an error
-
-- Type: boolen
+- Type: Object
 - Required: false
 
 ## usage
 
 How to use this command.
 
-- Type: string
+- Type: String
 - Required: false
 
 ## disabled
 
 Is this command disabled
 
-- Type: boolen
-- Required: false
-
-## subcommand
-
-Is at least 1 subcommand required
-
-- Type: boolen
+- Type: Boolen
 - Required: false
 
 ## subcommands
@@ -111,26 +96,19 @@ What subcommands does this command have
 
 Minimum time required to execute the same command again (default: 3)
 
-- Type: int
-- Required: false
-
-## ownerOnly
-
-Can only the owner(s) of this bot execute this command
-
-- Type: boolen
+- Type: Number
 - Required: false
 
 ## category
 
 The category of that command
 
-- Type: string
+- Type: String
 - Required: true
 
 ## execute(message, args)
 
 The function to execute the command, there are 2 args passed to this command when executing this command
 
-- Type: function
+- Type: Function
 - Required: true
