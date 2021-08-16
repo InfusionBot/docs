@@ -4,7 +4,7 @@ layout: docs
 
 # Privacy Policy - Discord Welcome-Bot
 
-Last updated and effective: 20 July, 2021
+Last updated and effective: 16 August 2021
 
 By using Welcome-Bot, you agree to the following privacy policy.
 
@@ -21,12 +21,16 @@ The bot may store the following information automatically when being invited to 
 
 - `guildId` with the `Server's ID` as value.
 - `prefix` with value `w/`.
-- `channel` with value `new-members`
-- `welcomeMessage` with value `Welcome {mention} to the {server} server!\nYou are our #{members} member`
-- `goodByeMessage` with value `Good Bye {mention}!\nWe are sad to see you go!`
-- `modChannel` with value `mod-log`
-- `enableWelcome` with value `true`
-- `enableGoodbye` with value `true`
+- `plugins.welcome.channel` with value `member-log`
+- `plugins.welcome.message` with value `Welcome {mention} to the {server} server!\nYou are our #{members_formatted} member`
+- `plugins.welcome.enabled` with value `true`
+- `plugins.goodbye.channel` with value `null`
+- `plugins.goodbye.message` with value `Good Bye {mention}!\nWe are sad to see you go!\nWithout you, we are {members} members`
+- `plugins.goodbye.enabled` with value `false`
+- `plugins.autorole.role` with value `0`
+- `plugins.autorole.enabled` with value `false`
+- `plugins.modlogs` with value `mod-log`
+- `disabled` with value `[]`
 - `lang` with value `Server's preferred locale` given by discord, if that's missing then `en-US`
 
 No other information outside of the above mentioned one will be stored.
@@ -55,3 +59,5 @@ E-Mail requests should go towards abhijoshi2k@gmail.com or baalkrshna@gmail.com.
 
 We try our best to remove the data when needed but due to the nature of the bot may it happen that through certain periots of time, such as when the bot undergoes maintenance and therefore is offline, or when there is an issue with the host or Service Provider (Discord) causing connection-issues, that the stored data won't get removed correctly.
 In such cases may you request the manual removal through E-Mail with the conditions as described above.
+
+For this, we have set up db auditor, it runs every 3 hours. We can assure you 99.9% that within 3 hours the data will be removed from db if the bot came back online.
