@@ -30,5 +30,5 @@ We reserve the right to update these terms at our own discretion, giving you a 1
 You may opt out by Removing the bot from any Server you have the rights for.
 
 ## Contact
-People may get in contact through e-mail at abhijoshi2k@gmail.com, or through the official [Support Discord](https://discord.gg/6HWjd4B46x) of the Bot.
+People may get in contact through e-mail at abhijoshi2k@gmail.com or baalkrshna@gmail.com, or through the official [Support Discord](https://discord.gg/xxU7akJNbC) of the Bot.
 Other ways of support may be provided but aren't guaranteed.
