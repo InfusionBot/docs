@@ -4,7 +4,7 @@ layout: docs
 
 # Privacy Policy - Discord Welcome-Bot
 
-Last updated and effective: 16 August 2021
+Last updated and effective: 26 August 2021
 
 By using Welcome-Bot, you agree to the following privacy policy.
 
