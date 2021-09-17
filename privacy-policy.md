@@ -4,7 +4,7 @@ layout: docs
 
 # Privacy Policy - Discord Welcome-Bot
 
-Last updated and effective: 26 August 2021
+Last updated and effective: 17 September 2021
 
 By using Welcome-Bot, you agree to the following privacy policy.
 
@@ -30,6 +30,7 @@ The bot may store the following information automatically when being invited to 
 - `plugins.autorole.role` with value `0`
 - `plugins.autorole.enabled` with value `false`
 - `plugins.modlogs` with value `mod-log`
+- `plugins.autopublish` with value `false`
 - `disabled` with value `[]`
 - `lang` with value `Server's preferred locale` given by discord, if that's missing then `en-US`
 
