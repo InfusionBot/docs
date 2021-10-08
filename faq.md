@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# FAQ - Discord Welcome-Bot
+# FAQ - Welcome-Bot
 
 Below are the frequently asked questions to Welcome-Bot
 

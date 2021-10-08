@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Commands - Discord Welcome-Bot
+# Commands - Welcome-Bot
 
 > Default Prefix: `w/`
 

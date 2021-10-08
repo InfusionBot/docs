@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Self-hosting - Discord Welcome-Bot
+# Self-hosting - Welcome-Bot
 
 **We ask you to please not host your own instance of Welcome-Bot.**
 Even though our license allows it, self-hosted instances of the bot have brought us a lot of headache in the past.

@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Privacy Policy - Discord Welcome-Bot
+# Privacy Policy - Welcome-Bot
 
 Last updated and effective: 17 September 2021
 

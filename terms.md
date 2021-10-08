@@ -2,7 +2,7 @@
 layout: docs
 ---
 
-# Terms of Service - Discord Welcome-Bot
+# Terms of Service - Welcome-Bot
 
 This page covers the Terms of Service (Terms) of the Discord welcome bot.
 
@@ -30,5 +30,5 @@ We reserve the right to update these terms at our own discretion, giving you a 1
 You may opt out by Removing the bot from any Server you have the rights for.
 
 ## Contact
-People may get in contact through e-mail at abhijoshi2k@gmail.com or baalkrshna@gmail.com, or through the official [Support Discord](https://discord.gg/xxU7akJNbC) of the Bot.
+People may get in contact through e-mail at abhijoshi2k@gmail.com or puneet2007@icloud.com, or through the official [Support Discord](https://discord.gg/xxU7akJNbC) of the Bot.
 Other ways of support may be provided but aren't guaranteed.
